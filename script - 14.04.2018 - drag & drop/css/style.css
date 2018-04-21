@@ -1,0 +1,52 @@
+.content{
+    width: 1300px !important;
+    height: 100%;
+    margin: 1% auto;
+}
+.area{
+    float: left;
+    width: 48%;
+    height: 500px;
+    border: 1px solid #cccc;
+    display: inline-block;
+    margin: 1%;
+    
+}
+.area .drag-top .drag, .area .drag-bottom .drag,
+.area .drop-top .dropable, .area .drop-bottom .dropable{
+    display: inline-block;
+    float: left;
+    height: 233px;
+    width: 23%;
+    border: 3px solid #80dd46;
+    color: white;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.area .drop-top .dropable, .area .drop-bottom .dropable {
+    border: 3px solid salmon;
+}
+.area .drag-top .drag div, .area .drag-bottom .drag div{
+    background-color: salmon;
+}
+.area .drop-top .dropable div, .area .drop-bottom .dropable div,
+.area .drag-top .drag div, .area .drag-bottom .drag div{
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+    padding-top: 80px;
+}
+.item.dragging{
+    background-color: #80dd46 !important;
+    
+}
+.item.drop{
+    background-color: #80dd46 !important;
+    
+}
